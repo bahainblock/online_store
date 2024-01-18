@@ -1,16 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from "./Components/Header/Header";
-import Content from "./Components/Content/Content";
-import ContinutionsGoods from "./Components/ContinuationsGoods/ContinutionsGoods";
-
+import HeaderBar from "./Components/HeaderBar/HeaderBar";
 
 function App() {
     return (
         <div>
-            <Header/>
-            <Content/>
-            <ContinutionsGoods/>
+            <HeaderBar/>
         </div>
     );
 }
