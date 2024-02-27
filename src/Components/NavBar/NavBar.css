@@ -1,0 +1,29 @@
+.navbar-container {
+    display: flex;
+    padding: 10px 0 64px 66px;
+    color: #FFF200;
+    width: 100vh;
+    height: 48px;
+}
+
+.navbar-catalog{
+    display: flex;
+    text-decoration: none;
+    padding: 0 16px 0 0;
+
+}
+
+.navbar-stock {
+    display: flex;
+    padding: 0 16px 0 0;
+}
+
+.navbar-blog {
+    display: flex;
+    padding: 0 16px 0 0;
+}
+
+.navbar-faq {
+    display: flex;
+    padding: 0 16px 0 0;
+}
