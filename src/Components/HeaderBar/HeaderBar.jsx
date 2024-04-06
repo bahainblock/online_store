@@ -1,6 +1,7 @@
 import React from "react";
 import './HeaderBar.css';
-import logo from  "../../image/logo.svg";
+import logo from "../../image/logo.svg";
+import {NavLink} from "react-router-dom";
 
 
 const HeaderBar = () => {
@@ -12,10 +13,14 @@ const HeaderBar = () => {
                 <div className={'header-markup'}>Главный по <br/>аккумуляторам!</div>
             </div>
             <input className={'header-search'} type="text"/>
+            <NavLink to="/login" className={"header-login"}>
+                <button>Вход</button>
+            </NavLink>
+            <NavLink to="/call" className={"header-call"}>
+                <button>Заказать звонок</button>
+            </NavLink>
 
-            <button className={'header-button-login'}>Вход</button>
-            <button className={'header-call-button'}>Заказать звонок</button>
-            </div>
+        </div>
     );
 }
 export default HeaderBar;

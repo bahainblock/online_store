@@ -1,29 +1,34 @@
 .navbar-container {
     display: flex;
-    padding: 10px 0 64px 66px;
-    color: #FFF200;
-    width: 100vh;
-    height: 48px;
+    width: 100%;
+    padding: 0 0 64px 62px;
 }
 
-.navbar-catalog{
-    display: flex;
-    text-decoration: none;
-    padding: 0 16px 0 0;
-
+.navbar-container button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #FFF200;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff; /* Цвет текста кнопки */
+    cursor: pointer;
 }
 
-.navbar-stock {
-    display: flex;
-    padding: 0 16px 0 0;
+/* Дополнительные стили для каждой кнопки (по классу) */
+.navbar-catalog button {
+    padding: 10px 30px;
+    background-color: #FFF200;
+    color: black;
 }
 
-.navbar-blog {
-    display: flex;
-    padding: 0 16px 0 0;
+.navbar-stock button {
+    /* Дополнительные стили для кнопки запасов */
 }
 
-.navbar-faq {
-    display: flex;
-    padding: 0 16px 0 0;
+.navbar-blog button {
+    /* Дополнительные стили для кнопки блога */
+}
+
+.navbar-faq button {
+    /* Дополнительные стили для кнопки FAQ */
 }

@@ -3,5 +3,8 @@
     height: 100vh;
     background-color:#0B0B0B;
     color: white;
-    padding: 20px 20px 0 0;
+    padding: 20px 20px 0 ;
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
